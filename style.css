@@ -1,0 +1,89 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+
+.cheffe{
+    text-transform: uppercase;
+    font-family: 'montserrat';
+}
+
+nav {
+    background-color: black;
+    padding: 2%;
+    text-align: right;
+
+}
+
+
+.liste a {
+    text-transform: lowercase;
+    padding: 2%;
+    margin-left: 1%;
+    color:white;
+    text-decoration: none;
+    /*Transition*/
+    transition-property: background-color;
+    transition-duration: 0.2%;
+    transition-timing-function: linear;
+    transition-delay: 0.05%;
+    text-transform: uppercase;  
+}
+
+.liste li {
+    list-style: none;
+    display: inline;
+
+}
+
+ul {
+    font-family: 'montserrat';
+}
+
+#section1 {
+    height: 50vh;
+    padding-top: 10%;
+
+}
+
+#image1 {
+    width: 100%;
+}
+
+#photo_pro {
+    width: 500px;
+}
+
+.wrap {
+   width:1000px;
+   margin:0 auto;
+}
+
+#left_col {
+   float:left;
+   width:300px;
+}
+
+#right_col {
+   float:right;
+   width:300px;
+}
+
+.qui{
+    font-family: 'roboto' ;
+}
+
+.domaine{
+    display: flex ;
+
+}
+
+.marketing{
+    text-align: right;
+
+}
+
+.photomarketing {
+    width: 50%;
+}
